@@ -1,0 +1,30 @@
+.body {
+    background-color: rgb(41, 39, 39);
+}
+
+.socials {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    color: antiquewhite;
+}
+
+.bt1 {
+    border-radius: 43px;
+    background-color: black;
+    width: 290px;
+    height: auto;
+    padding: 0px;
+    margin: 6px;
+    filter:blur(2px);
+    transition: all 0.6s ease;
+}
+
+
+
+/* Animations */
+
+.bt1:hover {
+ width: 270px;
+ filter:blur(0px)
+ }
