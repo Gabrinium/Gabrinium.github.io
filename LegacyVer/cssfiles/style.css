@@ -1,0 +1,67 @@
+.body {
+    background-color: rgb(41, 39, 39);
+}
+
+.socials {
+    opacity: 0;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    color: antiquewhite;
+    padding: 0px;
+    margin: 0px;
+    flex-wrap: wrap;
+    transition: all 2s ease;
+    animation: unblur 2s ease-in-out forwards;
+    filter: blur(5px);
+}
+
+.aboutme {
+    opacity: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color: bisque;
+    transition: all 2s ease;
+    animation: unblur 2s ease-in-out forwards;
+    filter: blur(5px);
+}
+
+.bt1 {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: black;
+    width: 290px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    justify-content: center;
+    transition: all 0.6s ease;
+}
+
+.footuh {
+    color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: rgb(22, 17, 17);
+    position: static;
+    width: 100%;
+    bottom: 0;
+}
+
+
+/* Animations */
+
+.bt1:hover {
+ width: 320px;
+ filter: contrast(200%);
+ }
+
+@keyframes unblur {
+    to {
+        width: 100%;
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
